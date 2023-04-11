@@ -4,12 +4,64 @@
 
 }
 
+nav{
+	background-color: #0d1b2a;
+}
+
+
+a.nav-link{
+	text-emphasis: none;
+}
+
+a.nav-link:link, a.nav-link:visited{
+	color: white;
+}
+
+a.nav-link:hover{
+	color:gray;
+}
+.navbar-toggler-icon .bi-border-width{
+	color: white;
+}
+
+.navbar-toggler-icon .bi-border-width:hover{
+	color: gray;
+}
+
+/*Termina header*/
+
 /*Body*/
 body{
 	background-color:#F2F2F2;
 }
 
+/*Termina body*/
+
 /*footer*/
 footer{
 	
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	background-color: #0A2B6D;
+	width: 100%;
+}
+
+.ft-elmnt{
+	width: 5px;
+}
+
+.ft-elmnt blockquote{
+	padding: 0.5%;
+	border: solid black 1px;
+}
+
+/*Termina footer*/
+
+
+#prueba{
+	color:red;
+	background-color: blue;
 }

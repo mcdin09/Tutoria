@@ -6,15 +6,25 @@
 	?>
 </head>
 <body>
+
+	<?php
+		include("pre-scripts.php");
+	?>
+
 	<?php
 		include("header.php");
 	?>
 
-	<div>Hola mundo! Header para probar funcionamiento de bootstrap</div>
-	<!--Se mostrarán publicaciones de facebook-->
+	<?php
+		include("content.php");
+	?>
 
 	<?php
 		include("footer.php");
+	?>
+
+	<?php
+		include("scripts.php");
 	?>
 </body>
 </html>

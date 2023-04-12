@@ -25,9 +25,6 @@ https://developers.facebook.com/docs/marketing-api/insights/parameters/v16.0
 - Vincular páginas con usuario
 - Realizar las pruebas con página para acceder a los datos de la publicación, en cualquiero otro caso no dejará
 
-
-
-
 Usuario David id: 4214126145479991
 Prueba tutoría id: 100344976347250
 Pagina ejemplo id: 111397078553497
@@ -36,16 +33,37 @@ Pagina ejemplo id: 111397078553497
 Consultas comunes:
 ### Consula el nombre y el id del usuario asociado a la APP 
   me?fields=id,name  
-### Consultar id y nombre de todas las páginas asociadas al perfil >>
-  USER-ID/accounts?                 (Reemplazar por el id del usuario)
+
+### Obtiene el nombre, token-página y id de todas las páginas asociadas al perfil
+  {USER-ID}/accounts?                 (Reemplazar por el id del usuario)
   fields=name,access_token&         
-  access_token=USER-ACCESS-TOKEN"    (token de larga duración EAAJyuJXSO2IBACZBZC302lHSPtuDfSlCho1C39666UeLDTTsFu1qhJXie0Gcqf7ZCF5TQcNdf1cY2kEgAlf7ovahrWRvBA03hLYfZApNIcaZB0oZAZBtnyflgcj4EjNhGfdpvZBT1ObAUh53oHuorA79b56EMiX5lvFuzsE7xcNtpzo24ZBmpJfLh)
+  access_token={USER-ACCESS-TOKEN}    
 
-  4214126145479991/accounts?fields=name,access_token&access_token=EAAJyuJXSO2IBAMyyPd31PmfADnREQasMO8oft3IzylCTdNusGtAWR8tPKfd8WThDfapEQAsCYsJrzeZBtGX4BT7u1FiGeZAZCZAWLqYxzFba83s3YbZA88LkVo3LRy53e2OgQxlvDPBJEBlXnlBvZBSPMRRjSZBmnZBEJ6ZAWKnesp8rkZB2OQMlX9EbDwTNkUbOnuJDJjr5KrgSCcDWoqLNao
+  {user-id}/accounts?fields=name,access_token&access_token={token-user}
+
 ### Obtener todas las publicaciones (Hacerlo desde la página en explorador de api graph)
-id-pagina     /Campos a mostrar /date_presents=today,yersterday,this_month, etc (Consultar página de arriba, no sirve date_presents)
-100344976347250/feed?fields,created_time=permalink_url,&date_presets=today
+#### En la API GRAPH se debe seleccionar la página, en el servidor debe ingresarse el token de la página y el id de la página
+##### Es importante comprobar si la publicación está oculta
+{id-page}/feed/?fields=id,permalink_url,created_time,is_hidden,is_published
 
+La API tiene un número limitado de llamadas a los servicios de Facebook
+Es necesario almacenar en la base de datos:
+  - id de las páginas
+  - id del usuario administrador
+Es posible que se necesite almacenar la siguiente información:
+  - id de las publicaciones mostradas actualmente
+  - nombre de las páginas (Como aparecen en el link)
+  - fecha de última comprobación (Hacerlo diariamente ?)
+  - ACCESS-TOKEN de usuario
+  - ACCESS-TOKEN de cada página
+La APP puede realizar 200 llamadas a la API por usuario
+##### Nota: Cuando la página sea lanzada, es necesario crear tokens de larga duración y actualizar los tokens periódicamente desde la API de Facebook
 
-PAGE-ID/feed?message=Hello&
-  fields=created_time,from,id,message&access_token=ACCESS-TOKEN"
+1. Se accede a la página
+2. Comprueba fecha de última consulta
+3. Si: la última fecha ha pasado más de X tiempo, entonces vuelve a consultar los datos
+4. Consulta página por página la información de sus publicaciones (Se obtiene de la DB los id de las páginas)
+5. Obtener url de la publicación más recientes
+6. Mostrar publicaciones en el sitio web
+
+Otra idea sería actualizar los links cada vez que se publique, pero se realizarían más consultas

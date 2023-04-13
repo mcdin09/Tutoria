@@ -5,7 +5,7 @@
 		include("meta.php");
 	?>
 </head>
-<body>
+<body >
 
 	<?php
 		include("pre-scripts.php");

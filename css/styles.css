@@ -5,7 +5,7 @@
 }
 
 nav{
-	background-color: #0d1b2a;
+	background-color: #0b090a;
 }
 
 
@@ -34,16 +34,65 @@ a.nav-link:hover{
 body{
 	margin: 0px;
 	padding: 0px;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
+.content{
+	background: radial-gradient(
+		rgba(255,255,255,0.2) 8%,transparent 8%
+		/*rgba(102,7,8,100) 8%,transparent 8%
+		/*#660708*/
+	);
+	background-position: 0% 0%;
+	background-size: 5vmin 5vmin;
+	/*background-color: #f5f3f4;*/
+	background-color: black;
+	position: relative;
+	padding: 0;
+	margin: 0;
+	width: auto;
+	min-height: 100px;
+	overflow-y: hidden;
+}
+
+.posts{
+	max-width: 850px;
+	height: 80%;
+	margin: 2% auto;
+	border: 3px solid #cad2c5;/*#353535;*/
+	border-radius: 10px;
+	background-color: none;
+	/*background-color: #cad2c5;*/
+	text-align: center;
+}
+
+@media (max-width:900px){
+	.posts{
+		width: 95%;
+	}
+}
+
+.post, .title{
+	margin: 30px 0px;
+}
+
+.title{
+	font-size: 2rem;
+	font-family: 'Chivo Mono',arial;
+	color: white;
 }
 
 /*Termina body*/
 
 /*footer*/
 footer{
-	position: absolute;
-	bottom: 0;
-	background-color: #0d1b2a;
-	width: 100%;
+	/*position: absolute;
+	bottom: 0;*/
+	margin-top: auto;
+	background-color: #0b090a;
+	/*width: 100%;*/
 }
 
 span > a,a:hover{
@@ -63,7 +112,7 @@ a:hover{
 	text-decoration: none;
 }
 
-.social-link{
+.social-link,.ft-elmnt-cont{
 	color: white;
 	font-size: 1rem;
 	font-family: "Space Mono", monospace;
@@ -81,6 +130,32 @@ a:hover{
 	color: grey;
 }
 
+.copy-row{
+	background-color: #161a1d;
+	padding: 1%;
+}
+
+.ft-elmnt{
+	padding: 10px;
+}
+
+.ft-elmnt-cont,.ft-elmnt-cont-h{
+	color: white;
+}
+
+.ft-elmnt-cont-h{
+	font-family: 'Chivo Mono',arial;
+	font-size: 1rem;
+	font-weight: bold;
+}
+
+.escudo_buap{
+	height: 100px;
+	/*
+	aspect-ratio: 1 / 1;
+	filter: hue-rotate(60deg);
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	*/
+}
 /*Termina footer*/
-
-

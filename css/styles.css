@@ -10,7 +10,7 @@ nav{
 
 
 a.nav-link{
-	text-emphasis: none;
+	font-family: 'Chivo Mono',arial;
 }
 
 a.nav-link:link, a.nav-link:visited{
@@ -36,7 +36,7 @@ body{
 	padding: 0px;
 	display: flex;
 	flex-direction: column;
-	min-height: 100vh;
+	min-height: 100px;	
 }
 
 .content{
@@ -53,19 +53,38 @@ body{
 	padding: 0;
 	margin: 0;
 	width: auto;
-	min-height: 100px;
+	min-height: 87vh;
 	overflow-y: hidden;
 }
 
-.posts{
+.info, .posts{
 	max-width: 850px;
-	height: 80%;
+	height: 90%;
 	margin: 2% auto;
+}
+
+.info{
+	padding: 2%;
+}
+
+.title,.description{
+	background-color: black;
+	display: inline-block;
+	width: content;
+}
+
+.description{
+	color: gray;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.posts{
 	border: 3px solid #cad2c5;/*#353535;*/
 	border-radius: 10px;
 	background-color: none;
 	/*background-color: #cad2c5;*/
 	text-align: center;
+	overflow-x: auto;
 }
 
 @media (max-width:900px){
@@ -75,7 +94,7 @@ body{
 }
 
 .post, .title{
-	margin: 30px 0px;
+	margin: 25px 0px;
 }
 
 .title{
@@ -93,15 +112,6 @@ footer{
 	margin-top: auto;
 	background-color: #0b090a;
 	/*width: 100%;*/
-}
-
-span > a,a:hover{
-	text-decoration: none;
-}
-
-a:hover{
-	color:red;
-	text-decoration: underline;
 }
 
 .ft-elmnt div{

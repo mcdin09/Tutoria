@@ -1,5 +1,16 @@
 <!--Se mostrarán publicaciones de facebook-->
+
 <div class="content">
+
+	<div class="info center">
+		<div class="title">
+			Conoce tus profesores
+		</div>
+		<div class="description">
+			Consulta información sobre tus profesores, contacta a tu tutor ¡y mucho más!
+		</div>
+	</div>
+
 	<div class="posts center">
 		<div class="title">Publicaciones más recientes</div>
 		<div class="post">

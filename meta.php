@@ -13,6 +13,3 @@
 <link rel="stylesheet" type="text/css" href="css/bootstrap-5.1.3-dist/bootstrap-icons.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chivo+Mono">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP">
-
-
-<title>Tutoría académica</title>

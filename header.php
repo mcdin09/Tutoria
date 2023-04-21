@@ -2,20 +2,42 @@
 
 <nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
-    <a class="navbar-brand" href="https://www.facebook.com/FCCsecretariaacademica">
-    	<img src="img/fcc_logo.png" width="30" height="24">
-    </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"><i class="bi bi-border-width"></i></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <div class="navbar-nav me-auto mb-2 mb-lg-0">
-          <a class="nav-link active" aria-current="page" href="./index.php">Home</a>
-          <a class="nav-link" href="./mi-tutor.php">Mi tutor</a>
-          <a class="nav-link" href="./profesores.php">Profesores</a>
-          <a class="nav-link" href="./info.php">Más información</a>
-          <a class="nav-link" href="./login.php">Iniciar sesión</a>
+    <div class="wrap1">
+      <div class="navbar-collapse" id="navbarSupportedContent">
+        <ul class="listaHead navbar-nav">
+            <li class="nav-item secretaria active">
+              <a class="navbar-brand iconoFB" href="https://www.facebook.com/FCCsecretariaacademica">
+                <img src="img/fcc_logo.png" width="30" height="24">
+              </a>  
+            </li>        
+  
+        <div class="headerTitulos">
+          <li class="nav-item active">
+            <a class="nav-link active" aria-current="page" href="./index.php">Home</a>
+          </li>
+  
+          <li class="nav-item active">
+            <a class="nav-link active" aria-current="page" href="./index.php">Mi tutor</a>
+          </li>
+  
+          <li class="nav-item active">
+            <a class="nav-link active" aria-current="page" href="./index.php">Profesores</a>
+          </li>
+  
+          <li class="nav-item active">
+            <a class="nav-link active" aria-current="page" href="./index.php">Mas informacion</a>
+          </li>
+  
+          <li class="nav-item active">
+            <a class="nav-link active" aria-current="page" href="./index.php">Iniciar sesion</a>
+          </li>
+        </div>
+              
+        </ul>
       </div>
     </div>
   </div>
-</nav>	
+</nav>

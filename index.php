@@ -12,18 +12,24 @@
 		include("pre-scripts.php");
 	?>
 
-	<?php
-		include("header.php");
-	?>
+
 
 	<div class="content-container">
-
+		<?php
+			include("header.php");
+		?>	
 		<div class="info center">
-			<div class="title">
-				Conoce tus profesores
-			</div>
-			<div class="description">
-				Consulta información sobre tus profesores, contacta a tu tutor ¡y mucho más!
+			<div class="carousel slide">
+				<div class="carousel-inner">
+					<div class=""> 					
+						<div class="title">
+							Conoce tus profesores
+						</div>
+						<div class="description">
+							Consulta información sobre tus profesores, contacta a tu tutor ¡y mucho más!
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 

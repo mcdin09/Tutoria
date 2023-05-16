@@ -11,6 +11,8 @@ nav{
 
 a.nav-link{
 	font-family: 'Chivo Mono',arial;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
 }
 
 a.nav-link:link, a.nav-link:visited{
@@ -39,12 +41,9 @@ body{
 	min-height: 100px;	
 	background: radial-gradient(
 		rgba(255,255,255,0.2) 8%,transparent 8%
-		/*rgba(102,7,8,100) 8%,transparent 8%
-		/*#660708*/
 	);
 	background-position: 0% 0%;
 	background-size: 5vmin 5vmin;
-	/*background-color: #f5f3f4;*/
 	background-color: black !important;
 }
 
@@ -56,24 +55,27 @@ body{
 	min-height: 87vh;
 	overflow-y: hidden;
 	background-color: transparent;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .info, .main-content{
 	max-width: 850px;
+	width: 90%;
 	height: 90%;
-	margin: 2% auto;
+	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
-}
-
-.info{
-	padding: 2%;
+	padding: 1%;
 }
 
 .title,.description{
 	background-color: black;
+	position: relative;
 	display: inline-block;
-	width: content;
+	width: fit-content;
+	padding: 3px;
 }
 
 .description{
@@ -82,8 +84,8 @@ body{
 }
 
 .main-content{
-	border: 3px solid #cad2c5;/*#353535;*/
-	border-radius: 10px;
+	/*border: 3px solid #cad2c5;/*#353535;*/
+	/*border-radius: 10px;
 	background-color: none;
 	/*background-color: #cad2c5;*/
 	text-align: center;
@@ -92,12 +94,12 @@ body{
 
 @media (max-width:900px){
 	.main-content{
-		width: 95%;
+		width: 90%;
 	}
 }
 
-.post, .title{
-	margin: 25px 0px;
+.content-element, .title{
+	margin: 10px 0px;
 }
 
 .title{
@@ -164,11 +166,132 @@ footer{
 
 .escudo_buap{
 	height: 100px;
-	/*
-	aspect-ratio: 1 / 1;
-	filter: hue-rotate(60deg);
-	filter: grayscale(100%);
-	-webkit-filter: grayscale(100%);
-	*/
 }
 /*Termina footer*/
+
+/*css profesor-card*/
+
+.profesor-card{
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	flex-direction: column;
+	width: 70%;
+	border: 1px solid white;
+	border-radius: 5px;
+	/*background-color: #7a7a7a;*/
+	/*background: #EFEFBB;  /* fallback for old browsers */
+	/*background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
+	/*background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/*background: #D3CCE3;  /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to left, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to left, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/*background-image: radial-gradient( circle 897px at 9% 80.3%,  rgba(55,60,245,1) 0%, rgba(234,161,15,0.90) 100.2% );*/
+/*background-image: linear-gradient( 57.4deg,  rgba(249,206,183,1) 4.6%, rgba(234,174,202,1) 26%, rgba(210,182,226,1) 49.1%, rgba(173,209,242,1) 86.5% );*/
+/*background-image: radial-gradient( circle 690px at 8.8% 19%,  rgba(72,81,86,1) 8%, rgba(187,187,187,1) 84.1% );*/
+/*background-image: radial-gradient( circle 588px at 31.7% 40.2%,  rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% );*/
+/*background-image: linear-gradient( 109.6deg,  rgba(209,0,116,1) 11.2%, rgba(110,44,107,1) 91.1% );*/
+/*background-image: radial-gradient( circle 976px at 51.2% 51%,  rgba(11,27,103,1) 0%, rgba(16,66,157,1) 0%, rgba(11,27,103,1) 17.3%, rgba(11,27,103,1) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2%, rgba(187,187,187,1) 100.2% );*/
+background-image: linear-gradient( 132.6deg,  rgba(71,139,214,1) 23.3%, rgba(37,216,211,1) 84.7% );
+	align-self: center;
+	color: white;
+	font-weight: bold;
+	padding: 15px;
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+.prof-info{
+	display: inline-flex;
+}
+
+.prof-t{
+	font-family: 'Chivo Mono',arial;
+	font-weight: 100;
+	margin-right: 5px;
+}
+
+@media (max-width:500px){
+	.profesor-card{
+		width: 95%;
+		overflow-x: auto;
+	}
+}
+
+
+/*CSS Más información*/
+
+details{
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+details + details {
+	margin-top: 2rem;
+}
+
+summary {
+	list-style: none;
+	font-family: 'Chivo Mono',arial;
+}
+
+details div {
+	border-left: 2px solid #fff;
+	border-right: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	padding: 1.5em;
+}
+
+summary, summary + div{
+	background-color: black;
+	color: white;
+}
+
+summary + div{
+	box-sizing: inherit;
+}
+
+summary::-webkit-details-marker {
+	display: none;
+}
+
+summary {
+	border: 2px solid #fff;
+	padding: .75em 1em;
+	cursor: pointer;
+	position: relative;
+	padding-left: calc(1.75rem + .75rem + .75rem);
+}
+
+summary:before {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: .75rem;
+	content: "↓";
+	width: 1.75rem;
+	height: 1.75rem;
+	background-color: #fff;
+	color: black;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	flex-shrink: 0;
+}
+
+details[open] summary {
+	background-color: #eee;
+	color: black;
+}
+
+details[open] summary:before {
+	content: "↑";
+	background-color: black;
+	color: white;
+}
+
+summary:hover {
+	background-color: #eee;
+	color: black;
+	border: 2px solid #59747b;
+}
+/*Termina css más información*/

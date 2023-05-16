@@ -14,7 +14,6 @@
           <a class="nav-link" href="./mi-tutor.php">Mi tutor</a>
           <a class="nav-link" href="./profesores.php">Profesores</a>
           <a class="nav-link" href="./info.php">Más información</a>
-          <a class="nav-link" href="./login.php">Iniciar sesión</a>
       </div>
     </div>
   </div>

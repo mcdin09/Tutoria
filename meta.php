@@ -11,5 +11,6 @@
 
 <link rel="stylesheet" type="text/css" href="css/bootstrap-5.1.3-dist/css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap-5.1.3-dist/bootstrap-icons.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chivo+Mono">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Chivo+Mono:wght@100;300;700">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100">

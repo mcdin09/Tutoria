@@ -171,6 +171,24 @@ footer{
 
 /*css profesor-card*/
 
+.letter-divider{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	margin: 10px 0 10px 0;
+	padding: 0;
+	font-family: 'Chivo Mono', arial;
+}
+
+.letter{
+	align-self: left;
+	width: 85%;
+	color: white;
+	text-align: left;
+	border-bottom: 1px solid white;
+	margin-bottom: 10px;
+}
+
 .profesor-card{
 	font-family: 'Montserrat', sans-serif;
 	display: flex;
@@ -178,23 +196,13 @@ footer{
 	width: 70%;
 	border: 1px solid white;
 	border-radius: 5px;
-	/*background-color: #7a7a7a;*/
-	/*background: #EFEFBB;  /* fallback for old browsers */
-	/*background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
-	/*background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	/*background: #D3CCE3;  /* fallback for old browsers */
-/*background: -webkit-linear-gradient(to left, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
-/*background: linear-gradient(to left, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-/*background-image: radial-gradient( circle 897px at 9% 80.3%,  rgba(55,60,245,1) 0%, rgba(234,161,15,0.90) 100.2% );*/
-/*background-image: linear-gradient( 57.4deg,  rgba(249,206,183,1) 4.6%, rgba(234,174,202,1) 26%, rgba(210,182,226,1) 49.1%, rgba(173,209,242,1) 86.5% );*/
-/*background-image: radial-gradient( circle 690px at 8.8% 19%,  rgba(72,81,86,1) 8%, rgba(187,187,187,1) 84.1% );*/
-/*background-image: radial-gradient( circle 588px at 31.7% 40.2%,  rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% );*/
-/*background-image: linear-gradient( 109.6deg,  rgba(209,0,116,1) 11.2%, rgba(110,44,107,1) 91.1% );*/
+	/*background: linear-gradient(to left, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	/*background-image: linear-gradient( 57.4deg,  rgba(249,206,183,1) 4.6%, rgba(234,174,202,1) 26%, rgba(210,182,226,1) 49.1%, rgba(173,209,242,1) 86.5% );*/
+	/*background-image: radial-gradient( circle 588px at 31.7% 40.2%,  rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% );*/
+	background-image: linear-gradient( 109.6deg,  rgba(209,0,116,1) 11.2%, rgba(110,44,107,1) 91.1% );
 /*background-image: radial-gradient( circle 976px at 51.2% 51%,  rgba(11,27,103,1) 0%, rgba(16,66,157,1) 0%, rgba(11,27,103,1) 17.3%, rgba(11,27,103,1) 58.8%, rgba(11,27,103,1) 71.4%, rgba(16,66,157,1) 100.2%, rgba(187,187,187,1) 100.2% );*/
-background-image: linear-gradient( 132.6deg,  rgba(71,139,214,1) 23.3%, rgba(37,216,211,1) 84.7% );
-	align-self: center;
-	color: white;
+/*background-image: linear-gradient( 132.6deg,  rgba(71,139,214,1) 23.3%, rgba(37,216,211,1) 84.7% );*/
+	color: black;
 	font-weight: bold;
 	padding: 15px;
 	text-align: left;
@@ -207,7 +215,6 @@ background-image: linear-gradient( 132.6deg,  rgba(71,139,214,1) 23.3%, rgba(37,
 
 .prof-t{
 	font-family: 'Chivo Mono',arial;
-	font-weight: 100;
 	margin-right: 5px;
 }
 

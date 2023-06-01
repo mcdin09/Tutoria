@@ -28,17 +28,7 @@
 			<details>
 				<summary>¿Quién es mi tutor?</summary>
 				<div>
-					A través de un pequeño tutorial puedes averiguar qué tutor te fue asignado al ingresar a la facultad.
-					Ingresa al siguiente link:
-					<br>
-					<a href="http://webserver1.siiaa.siu.buap.mx:81/autoservicios/twbkwbis.P_WWWLogin">Autoservicios</a>
-					<ol>
-						<li> <img class="tutorialImg" src="img/paso1.png"> </li>
-						<li> <img class="tutorialImg" src="img/paso2.png"> </li>
-						<li> <img class="tutorialImg" src="img/paso3.png"> </li>
-						<li> <img class="tutorialImg" src="img/paso4.png"> </li>
-						<li> <img class="tutorialImg" src="img/paso5.png"> </li>
-					</ol>
+					A través de un pequeño tutorial puedes averiguar qué tutor te fue asignado al ingresar a la facultad en el apartado <a class="link-inpage" href="./mi-tutor.php">Mi tutor</a>.
 				</div>
 			</details>
 			<details>

@@ -241,6 +241,7 @@ details + details {
 summary {
 	list-style: none;
 	font-family: 'Chivo Mono',arial;
+	text-align: left;
 }
 
 details div {
@@ -248,6 +249,7 @@ details div {
 	border-right: 2px solid #fff;
 	border-bottom: 2px solid #fff;
 	padding: 1.5em;
+	text-align: justify;
 }
 
 summary, summary + div{
@@ -307,6 +309,7 @@ summary:hover {
 .tutorialImg {
 	margin-top: 2rem;
 	max-width: 90%;
+	align-self: center;
 }
 
 /*Listas de la seccion mas informacion */
@@ -323,6 +326,41 @@ summary:hover {
 
 .listaFAQ li + li {
 	margin-top: 1rem;
+}
+
+.step{
+	color: white;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.step-indication, .step-description, .link-description{
+	background-color: black;
+	position: relative;
+	display: inline-block;
+	width: fit-content;
+}
+
+.step-indication{
+	list-style-position: inside;
+	font-weight: bold;
+}
+
+.step-description{
+	text-align: justify;
+}
+
+.link-description{
+	text-align: center;
+}
+
+.link-inpage{
+	text-decoration: none;
+	color: blue;
+	font-weight: bold;
 }
 
 

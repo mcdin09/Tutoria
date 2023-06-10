@@ -21,10 +21,14 @@
 				Mi tutor
 			</div>
 			<div class="description">
-				¡Contacta con tu tutor! Acá te mostraremos una serie de pasos que debes seguir para ubicar a tu tutor
+				¡Contacta con tu tutor! Acá te mostraremos una serie de pasos que debes seguir para ubicar a tu tutor. Ten en cuenta que si cambiaste de tutor, estos tutoriales no funcionará.
+			</div>
+			<div class="nav-options">
+				<div class="tutorial-option tutorial-option-active" id="option-1" type="button">Segura</div>
+				<div class="tutorial-option tutorial-option-active" id="option-2" type="button">Rápida</div>
 			</div>
 		</div>
-		<div class="main-content">
+		<div class="main-content" id="main-1">
 			<ol>
 				<div class="step">
 					<li class="step-indication">Ingresa al siguiente link</li>
@@ -57,6 +61,38 @@
 				</div>
 			</ol>
 		</div>
+
+		<div class="main-content" id="main-2">
+			<div class="description">
+				El siguiente tutorial no es funcional para la generación Primavera 2021.
+			</div>
+			<div class="description">Es necesario que tengas a la mano tu horario de primer semestre.</div>
+			<ol>
+				<div class="step">
+					<li class="step-indication">Ubica el periodo (Otoño/Primavera) y el año</li>
+				</div>
+				<div class="step">
+					<li class="step-indication">Ubica las letras de la licenciatura que cursas</li>
+					<ol>
+						<li class="sub-step-indication">Ingeniería en Ciencias de la Computación: ICC</li>
+						<li class="sub-step-indication">Ingeniería en Tecnologías de la Información: IT</li>
+						<li class="sub-step-indication">Licenciatura en Ciencias de la Computación: CCO</li>
+					</ol>
+				</div>
+				<div class="step">
+					<li class="step-indication">Ubica tu sección</li>
+					<div class="step-description">A partir de la columna "SEC" en tu horario</div>
+					<ol>
+						<li class="sub-step-indication">Ubica la o las materias de la licenciatura (Aquellas que tengan las letras de tu carrera)</li>
+						<li class="sub-step-indication">Identifica la sección de la materia, si las materias tienen dos secciones diferentes, escoge la más frecuente</li>
+					</ol>
+				</div>
+				<div class="step">
+					<li class="step-indication">Ubica a tu tutor en el apartado "Profesores"</li>
+					<div class="step-description">Utiliza tu periodo y sección</div>
+				</div>
+			</ol>
+		</div>
 	</div>
 
 	<?php
@@ -66,5 +102,7 @@
 	<?php
 		include("scripts.php");
 	?>
+
+	<script src="scripts/tutorial-option.js"></script>
 </body>
 </html>

@@ -25,21 +25,21 @@
 			</div>
 		</div>
 		<div class="main-content">
-			<details>
-				<summary>¿Quién es mi tutor?</summary>
+			<details class="det-info">
+				<summary class="sum-info">¿Quién es mi tutor?</summary>
 				<div>
 					A través de un pequeño tutorial puedes averiguar qué tutor te fue asignado al ingresar a la facultad en el apartado <a class="link-inpage" href="./mi-tutor.php">Mi tutor</a>.
 				</div>
 			</details>
-			<details>
-				<summary>¿Puedo cambiar de tutor?</summary>
+			<details class="det-info">
+				<summary class="sum-info">¿Puedo cambiar de tutor?</summary>
 				<div>
 					Sí, se puede realizar el cambio solicitándolo por escrito ante la Secretaría Académica de la Facultad de Ciencias de la Computación, por única vez y por causa plenamente justificada.
 					Ten en cuenta que al cambiar de tutor, el tutorial para consultar con tu tutor ya no funcionará.
 				</div>
 			</details>
-			<details>
-				<summary>¿Qué responsabilidades tiene mi tutor?</summary>
+			<details class="det-info">
+				<summary class="sum-info">¿Qué responsabilidades tiene mi tutor?</summary>
 					<div class="listaFAQ">				
 					<ul>
 						<li>
@@ -90,8 +90,8 @@
 					</ul>
 					</div>
 			</details>
-			<details>
-				<summary>¿Qué responsabilidades tengo como tutorado?</summary>
+			<details class="det-info">
+				<summary class="sum-info">¿Qué responsabilidades tengo como tutorado?</summary>
 				<div class="listaFAQ">
 					<ul>
 						<li>
@@ -109,8 +109,8 @@
 					</ul>
 				</div>
 			</details>
-			<details>
-				<summary>¿Qué derechos tengo como tutorado?</summary>
+			<details class="det-info">
+				<summary class="sum-info">¿Qué derechos tengo como tutorado?</summary>
 				<div class="listaFAQ">
 					<ul>
 						<li>
@@ -128,8 +128,8 @@
 					</ul>				
 				</div>
 			</details>
-			<details>
-				<summary>¿Dónde puedo consultar si tengo más preguntas?</summary>
+			<details class="det-info">
+				<summary class="sum-info">¿Dónde puedo consultar si tengo más preguntas?</summary>
 				<div>Comunícate a la coordinación de tutores con la M.C. Lilia Mantilla Narváez al correo electrónico mantilla.narvaez@correo.buap.mx, o en edificio CCO5 cubículo 102.</div>
 			</details>
 		</div>

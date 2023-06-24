@@ -1,10 +1,4 @@
-/*Header
-
-.header{
-
-}
-
-*/
+/*Header*/
 
 nav{
 	background-color: #0b090a;
@@ -49,6 +43,10 @@ body{
 	background-color: black !important;
 }
 
+/*Termina body*/
+
+/*Formato contenido*/
+
 .content-container{
 	position: relative;
 	padding: 0;
@@ -86,10 +84,6 @@ body{
 }
 
 .main-content{
-	/*border: 3px solid #cad2c5;/*#353535;*/
-	/*border-radius: 10px;
-	background-color: none;
-	/*background-color: #cad2c5;*/
 	text-align: center;
 	overflow-x: auto;
 }
@@ -110,7 +104,7 @@ body{
 	color: white;
 }
 
-/*Termina body*/
+/*Termina formato contenido*/
 
 /*footer*/
 footer{
@@ -250,6 +244,7 @@ details.det-prof[open] > summary:before {
 	}
 }
 
+/*Termina profesores*/
 
 /*CSS Más información*/
 
@@ -335,6 +330,8 @@ summary.sum-info:hover {
 	align-self: center;
 }
 
+/*Termina Más información*/
+
 /*Listas de la seccion mas informacion */
 
 .listaFAQ ul {
@@ -419,5 +416,4 @@ summary.sum-info:hover {
 	font-weight: bold;
 }
 
-
-/*Termina css más información*/
+/*Termina tutorial*/

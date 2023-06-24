@@ -33,7 +33,7 @@
     			$resultado = mysqli_query($conn, $query);
     			$row = mysqli_fetch_all($resultado, MYSQLI_ASSOC);
     			$num_rows = mysqli_num_rows($resultado);
-    			$actual_letter = ' ';
+    			$actual_gen = ' ';
     			for ($i=0; $i < $num_rows; $i++) { 
     				$nombre = $row[$i]['nombre'];
     				$cubiculo = $row[$i]['cubiculo'];
@@ -51,11 +51,11 @@
     				}else{
     					$month = "Otoño";
     				}
-    				if (strcmp($actual_letter,$generacion)!= 0){
+    				if (strcmp($actual_gen,$generacion)!= 0){
     					print("<details class='det-prof'>
     						<summary class='gen-prof'>$year - $month</summary>
     						<div>");
-    					$actual_letter = $generacion;
+    					$actual_gen = $generacion;
     				}
     				print("<div class='profesor-card'>
     							<div class='prof-info'><div class='prof-t'>Sección:</div><div class='prof-attr'>$seccion</div></div>
@@ -66,7 +66,7 @@
     					");
     				if($i < $num_rows - 1){
     					$aux = $row[$i + 1]['generacion'];
-    					if(strcmp($aux,$actual_letter) !=0){
+    					if(strcmp($aux,$actual_gen) !=0){
     						print("</div></details>");
     					}
     				}else{

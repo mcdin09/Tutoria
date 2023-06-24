@@ -21,11 +21,11 @@
 				Mi tutor
 			</div>
 			<div class="description">
-				¡Contacta con tu tutor! Acá te mostraremos una serie de pasos que debes seguir para ubicar a tu tutor. Ten en cuenta que si cambiaste de tutor, estos tutoriales no funcionará.
+				¡Contacta con tu tutor! Acá te mostraremos una serie de pasos que debes seguir para ubicar a tu tutor. Ten en cuenta que si cambiaste de tutor, estos tutoriales no funcionarán.
 			</div>
 			<div class="nav-options">
-				<div class="tutorial-option tutorial-option-active" id="option-1" type="button">Segura</div>
-				<div class="tutorial-option tutorial-option-active" id="option-2" type="button">Rápida</div>
+				<div class="tutorial-option tutorial-option-active" id="option-1" type="button">Primera opción</div>
+				<div class="tutorial-option tutorial-option-active" id="option-2" type="button">Segunda opción</div>
 			</div>
 		</div>
 		<div class="main-content" id="main-1">

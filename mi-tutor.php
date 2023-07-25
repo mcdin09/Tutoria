@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<?php
-		include("meta.php");
+	include("meta.php");
 	?>
 	<title>Mi tutor</title>
 </head>
+
 <body>
 	<?php
-		include("pre-scripts.php");
+	include("pre-scripts.php");
 	?>
 
 	<?php
-		include("header.php");
+	include("redesSociales.php")
+		?>
+
+	<?php
+	include("header.php");
 	?>
 
 	<div class="content-container">
@@ -21,7 +27,8 @@
 				Mi tutor
 			</div>
 			<div class="description">
-				¡Contacta con tu tutor! Acá te mostraremos una serie de pasos que debes seguir para ubicar a tu tutor. Ten en cuenta que si cambiaste de tutor, estos tutoriales no funcionarán.
+				¡Contacta con tu tutor! Acá te mostraremos una serie de pasos que debes seguir para ubicar a tu tutor.
+				Ten en cuenta que si cambiaste de tutor, estos tutoriales no funcionarán.
 			</div>
 			<div class="nav-options">
 				<div class="tutorial-option tutorial-option-active" id="option-1" type="button">Primera opción</div>
@@ -32,7 +39,8 @@
 			<ol>
 				<div class="step">
 					<li class="step-indication">Ingresa al siguiente link</li>
-					<a class="link-description" href="http://webserver1.siiaa.siu.buap.mx:81/autoservicios/twbkwbis.P_WWWLogin">Autoservicios</a>
+					<a class="link-description"
+						href="http://webserver1.siiaa.siu.buap.mx:81/autoservicios/twbkwbis.P_WWWLogin">Autoservicios</a>
 				</div>
 
 				<div class="step">
@@ -57,7 +65,10 @@
 				</div>
 				<div class="step">
 					<li class="step-indication">¡Listo!</li>
-					<div class="step-description">Encontrarás el nombre del tutor, junto con el coordinador de carrera, coordinador de tutores, secretaría académica y directora. Si deseas contactar algún docente, puedes verificar su información de contacto en <a class="link-inpage" href="./profesores.php">Profesores</a>.</div>
+					<div class="step-description">Encontrarás el nombre del tutor, junto con el coordinador de carrera,
+						coordinador de tutores, secretaría académica y directora. Si deseas contactar algún docente,
+						puedes verificar su información de contacto en <a class="link-inpage"
+							href="./profesores.php">Profesores</a>.</div>
 				</div>
 			</ol>
 		</div>
@@ -83,8 +94,10 @@
 					<li class="step-indication">Ubica tu sección</li>
 					<div class="step-description">A partir de la columna "SEC" en tu horario</div>
 					<ol>
-						<li class="sub-step-indication">Ubica la o las materias de la licenciatura (Aquellas que tengan las letras de tu carrera)</li>
-						<li class="sub-step-indication">Identifica la sección de la materia, si las materias tienen dos secciones diferentes, escoge la más frecuente</li>
+						<li class="sub-step-indication">Ubica la o las materias de la licenciatura (Aquellas que tengan
+							las letras de tu carrera)</li>
+						<li class="sub-step-indication">Identifica la sección de la materia, si las materias tienen dos
+							secciones diferentes, escoge la más frecuente</li>
 					</ol>
 				</div>
 				<div class="step">
@@ -96,13 +109,14 @@
 	</div>
 
 	<?php
-		include("footer.php");
+	include("footer.php");
 	?>
 
 	<?php
-		include("scripts.php");
+	include("scripts.php");
 	?>
 
 	<script src="scripts/tutorial-option.js"></script>
 </body>
+
 </html>

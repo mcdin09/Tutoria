@@ -10,7 +10,9 @@
 	<?php
 		include("pre-scripts.php");
 	?>
-
+	<?php
+		include("redesSociales.php")
+	?>
 	<?php
 		include("header.php");
 	?>

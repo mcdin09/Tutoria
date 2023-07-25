@@ -1,9 +1,9 @@
 <!--navbar-light bg-light-->
 
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg" id="navbar">
   <div class="container-fluid">
     <a class="navbar-brand" href="https://www.facebook.com/FCCsecretariaacademica">
-    	<img src="img/fcc_logo.png" width="30" height="24">
+    	<img src="img/fcc_logo.png" width="50" height="50" class="d-inline-block align-text-top">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"><i class="bi bi-border-width"></i></span>
@@ -14,6 +14,7 @@
           <a class="nav-link" href="./mi-tutor.php">Mi tutor</a>
           <a class="nav-link" href="./profesores.php">Profesores</a>
           <a class="nav-link" href="./info.php">Más información</a>
+          <a class="nav-link" href="./directorio.php">Directorio FCC</a>
       </div>
     </div>
   </div>

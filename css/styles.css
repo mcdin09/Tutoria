@@ -1,7 +1,7 @@
 /*Header*/
 
 nav{
-	background-color: #0b090a;
+	background-color: #6d646b;
 }
 
 
@@ -32,15 +32,9 @@ a.nav-link:hover{
 body{
 	margin: 0px;
 	padding: 0px;
-	display: flex;
-	flex-direction: column;
-	min-height: 100px;	
-	background: radial-gradient(
-		rgba(255,255,255,0.2) 8%,transparent 8%
-	);
-	background-position: 0% 0%;
-	background-size: 5vmin 5vmin;
-	background-color: black !important;
+	min-height: 100%;	
+	background: rgb(144,127,127);
+	background: linear-gradient(158deg, rgba(144,127,127,1) 14%, rgba(158,146,146,1) 47%, rgba(130,116,121,1) 97%);
 }
 
 /*Termina body*/
@@ -111,7 +105,7 @@ footer{
 	/*position: absolute;
 	bottom: 0;*/
 	margin-top: auto;
-	background-color: #0b090a;
+	background-color: #5e5859;
 	/*width: 100%;*/
 }
 
@@ -124,7 +118,7 @@ footer{
 }
 
 .social-link,.ft-elmnt-cont{
-	color: white;
+	color: #5e594c;
 	font-size: 1rem;
 	font-family: "Space Mono", monospace;
 }
@@ -137,13 +131,14 @@ footer{
 }
 
 .social-icon{
-	padding-left: 10px;
-	color: grey;
+	padding-left: 5px;
+	color: rgb(71, 61, 61) !important;
 }
 
 .copy-row{
-	background-color: #161a1d;
+	background-color: #3f3c3d;
 	padding: 1%;
+	text-align: center;
 }
 
 .ft-elmnt{
@@ -416,4 +411,21 @@ summary.sum-info:hover {
 	font-weight: bold;
 }
 
-/*Termina tutorial*/
+/*Termina tutoria*/
+
+.top-bar {
+	padding: 0.5rem 0;
+	/*display: flex; */
+}
+
+.social-bar {
+	float: right;
+}
+
+.navbar {
+	padding-left: 0.5rem;
+}
+
+#navbar {
+	min-height: 85px;
+}

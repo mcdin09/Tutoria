@@ -17,9 +17,10 @@
 				</div>
 			</div>
 		</div>
+		<div class="row copy-row">
+			<span class="ft-elmnt-cont">Todos los derechos reservados</span>
+		</div>
 	</div>
-	<div class="row copy-row" id="ft-elmnt-4">
-		<span class="ft-elmnt-cont">Todos los derechos reservados</span>
-	</div>
+
 	</div>
 </footer>

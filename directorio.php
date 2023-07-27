@@ -17,16 +17,34 @@
 		include("header.php");
 	?>
 
-	<div class="content-container">
+	<div class="container container-directorio">
 		<div class="info">
-			<div class="title">
+			<div class="title text-center">
 				Directorio 
 			</div>
 			<div class="description">
 				¿Deseas conocer los correos de contacto, cubiculos, telefonos de los profesores y administrativos de la facultad? En los siguientes enlaces los puedes consultar
 			</div>
+		</div>	
+		<div class="links-directorio">
+			<ul>
+			<li class="directorio-cards text-center card">
+				<a href="https://www.cs.buap.mx/Directivos.php" style="text-decotarion: none;"> Directivos </a>	
+			</li>
+			<li  class="directorio-cards text-center card">
+				<a href="https://www.cs.buap.mx/Coordinadores.php" style="text-decotarion: none;">Coordinadores </a>	
+			</li>
+			<li  class="directorio-cards text-center card">
+				<a href="https://www.cs.buap.mx/ConsejerosCUA.php" style="text-decotarion: none;"> Consejeros Unidad Academica </a>	
+			</li>
+			<li  class="directorio-cards text-center card">
+				<a href="https://www.cs.buap.mx/ConsejerosCU.php" style="text-decotarion: none;"> Consejeros Universitarios </a>	
+			</li>
+			<li  class="directorio-cards text-center card">
+				<a href="https://www.cs.buap.mx/PersonalDocente.php" style="text-decotarion: none;"> Personal Docente </a>	
+			</li>
+			</ul>
 		</div>
-		
 	</div>
 
 	<?php

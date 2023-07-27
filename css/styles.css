@@ -1,3 +1,7 @@
+html {
+	width: 100%;
+}
+
 /*Header*/
 
 nav{
@@ -33,6 +37,7 @@ body{
 	margin: 0px;
 	padding: 0px;
 	min-height: 100%;	
+	width: 100%;
 	background: rgb(144,127,127);
 	background: linear-gradient(158deg, rgba(144,127,127,1) 14%, rgba(158,146,146,1) 47%, rgba(130,116,121,1) 97%);
 }
@@ -428,4 +433,35 @@ summary.sum-info:hover {
 
 #navbar {
 	min-height: 85px;
+}
+
+.container-directorio {
+	min-height: 600px !important;
+}
+
+
+.links-directorio {
+	display: flex;
+	flex-direction: column;
+	padding: 1rem 1rem 1rem 2rem;
+}
+
+.links-directorio ul {
+	padding: 1rem;
+}
+
+.links-directorio a { 
+	text-decoration: none;
+	color: #4a4e69;
+}
+
+.links-directorio li {
+	margin-top: 1rem;
+	margin-left: 30%;
+	margin-right: 30%;
+	max-width: 40%;
+}
+
+.card {
+	background-color: #b5bcbe !important;
 }

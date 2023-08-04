@@ -4,7 +4,7 @@
 	<?php
 		include("meta.php");
 	?>
-	<title>Más información</title>
+	<title>Directorio FCC</title>
 </head>
 <body>
 	<?php
@@ -17,7 +17,7 @@
 		include("header.php");
 	?>
 
-	<div class="container container-directorio">
+	<div class="content-container">
 		<div class="info">
 			<div class="title text-center">
 				Directorio 

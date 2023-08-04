@@ -1,6 +1,6 @@
 <!--navbar-light bg-light-->
 
-<nav class="navbar navbar-expand-lg" id="navbar">
+<nav class="navbar sticky-top navbar-expand-lg" id="navbar">
   <div class="container-fluid">
     <a class="navbar-brand" href="https://www.facebook.com/FCCsecretariaacademica">
     	<img src="img/fcc_logo.png" width="50" height="50" class="d-inline-block align-text-top">

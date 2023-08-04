@@ -67,10 +67,12 @@ body{
 	display: flex;
 	flex-direction: column;
 	padding: 1%;
+	background: #8c7c7c;
+	
 }
 
 .title,.description{
-	background-color: black;
+	background-color:  	#8c7c7c;
 	position: relative;
 	display: inline-block;
 	width: fit-content;
@@ -78,7 +80,7 @@ body{
 }
 
 .description{
-	color: gray;
+	color: rgb(54, 51, 51);
 	font-family: 'Noto Sans JP', sans-serif;
 }
 
@@ -271,7 +273,7 @@ details.det-info div {
 }
 
 summary.sum-info, summary.sum-info + div{
-	background-color: black;
+	background-color: #5e5a65;
 	color: white;
 }
 
@@ -353,10 +355,13 @@ summary.sum-info:hover {
 .nav-options{
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
+	margin-top: 20px;
+	
 }
 
 .tutorial-option{
-	background-color: #023047;
+	/*background-color: #023047; */
 	color: white;
 	border: 3px solid #ffb703;
 	border-radius: 5px;
@@ -386,7 +391,6 @@ summary.sum-info:hover {
 }
 
 .step-indication, .step-description, .link-description{
-	background-color: black;
 	position: relative;
 }
 
@@ -406,13 +410,23 @@ summary.sum-info:hover {
 	text-align: justify;
 }
 
-.link-description{
+.link-description {
+	margin-top: 9px;
+	padding: 12px;
 	text-align: center;
+	background-color: #564e4e;
+	color: #e2ebee;
+	text-decoration: none;
+	border-radius: 9px;
+}
+
+.link-description:hover {
+	color: #bfc8cb;
 }
 
 .link-inpage{
 	text-decoration: none;
-	color: blue;
+	color: rgb(164, 164, 169);
 	font-weight: bold;
 }
 
@@ -423,8 +437,8 @@ summary.sum-info:hover {
 	/*display: flex; */
 }
 
-.social-bar {
-	float: right;
+.socials-bar {
+	float: right; 
 }
 
 .navbar {
@@ -435,15 +449,13 @@ summary.sum-info:hover {
 	min-height: 85px;
 }
 
-.container-directorio {
-	min-height: 600px !important;
-}
-
-
 .links-directorio {
 	display: flex;
 	flex-direction: column;
+	max-width: 1200px;
+	width: 90%;
 	padding: 1rem 1rem 1rem 2rem;
+	margin-top: 1rem;
 }
 
 .links-directorio ul {
@@ -456,12 +468,12 @@ summary.sum-info:hover {
 }
 
 .links-directorio li {
-	margin-top: 1rem;
+	margin-top: 1.2rem;
 	margin-left: 30%;
 	margin-right: 30%;
 	max-width: 40%;
 }
 
 .card {
-	background-color: #b5bcbe !important;
+	background-color: #a1afb4 !important;
 }

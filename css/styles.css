@@ -477,3 +477,13 @@ summary.sum-info:hover {
 .card {
 	background-color: #a1afb4 !important;
 }
+
+
+.directivos {
+	width: 90%;
+	padding-top: 30px;
+}
+
+.card-directivos {
+	height: 200px;
+}

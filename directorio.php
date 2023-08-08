@@ -26,11 +26,53 @@
 				¿Deseas conocer los correos de contacto, cubiculos, telefonos de los profesores y administrativos de la facultad? En los siguientes enlaces los puedes consultar
 			</div>
 		</div>	
+		<div class="directivos ">
+			<h2 class="text-center"> Directivos 2023 - 2027 </h2>
+			<div class="row" style="padding-top: 10px;">
+				<div class="col-sm-3">
+					<div class="card card-directivos">
+						<div class="card-body">
+							<h5 class="card-title">Directora</h5>
+							<p class="card-text">M.I. María del Consuelo Molina García</p>
+							<p class="card-text">Correo: direccion.fcc@correo.buap.mx </p>
+							<p class="card-text">Ubicación: CCO4-211, Ext. 5673</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="card card-directivos">
+						<div class="card-body">
+						<h5 class="card-title">SECRETARIA ACADÉMICA</h5>
+							<p class="card-text">Dra. María Teresa Torrijos Muñoz</p>
+							<p class="card-text">Correo: secretariaacademica.fcc@correo.buap.mx </p>
+							<p class="card-text">Ubicación: CCO4-208B, Ext. 7204.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-3">
+					<div class="card card-directivos">
+							<div class="card-body">
+								<h5 class="card-title">SECRETARIA DE INVESTIGACIÓN Y ESTUDIOS DE POSGRADO</h5>
+								<p class="card-text">Dra. María Josefa Somodevilla García</p>
+								<p class="card-text">Correo: maria.somodevilla@correo.buap.mx</p>
+								<p class="card-text">Ubicación: CCO1-211A, Ext. 7202</p>
+							</div>
+						</div>
+					</div>
+				<div class="col-sm-3">
+					<div class="card card-directivos">
+						<div class="card-body">
+							<h5 class="card-title">COORDINADOR ADMINISTRATIVO</h5>
+							<p class="card-text">Mtro. Guillermo Marín Dorado</p>
+							<p class="card-text">Correo: administrativa.fcc@correo.buap.mx</p>
+							<p class="card-text">Ubicación: CCO4-208A, Ext. 7207</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 		<div class="links-directorio">
 			<ul>
-			<li class="directorio-cards text-center card">
-				<a href="https://www.cs.buap.mx/Directivos.php" style="text-decotarion: none;"> Directivos </a>	
-			</li>
 			<li  class="directorio-cards text-center card">
 				<a href="https://www.cs.buap.mx/Coordinadores.php" style="text-decotarion: none;">Coordinadores </a>	
 			</li>
